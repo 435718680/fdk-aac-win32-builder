@@ -32,5 +32,11 @@ jobs:
     - name: Upload Artifact
       uses: actions/upload-artifact@v1.0.0
       with:
-        name: N_m3u8DL-CLI_latest
+        name: fdkaac.exe
         path: artifacts/x86_64-w64-mingw32/fdkaac.exe
+
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v1.0.0
+      with:
+        name: libfdk-aac-2.dll
+        path: artifacts/x86_64-w64-mingw32/libfdk-aac-2.dll
